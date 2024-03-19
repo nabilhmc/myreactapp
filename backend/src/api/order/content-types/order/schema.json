@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "selectedPaper": {
+      "type": "string"
+    },
+    "selectedOptions": {
+      "type": "string"
+    },
+    "selectedPayment": {
+      "type": "string"
+    },
+    "products": {
+      "type": "json"
+    }
+  }
+}

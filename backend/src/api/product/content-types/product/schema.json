@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productTitel": {
+      "type": "string",
+      "required": true
+    },
+    "productPrice": {
+      "type": "biginteger",
+      "required": true
+    },
+    "productDescription": {
+      "type": "text",
+      "required": true
+    },
+    "productRating": {
+      "type": "decimal",
+      "required": true
+    },
+    "productimg": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "productCategory": {
+      "type": "enumeration",
+      "enum": [
+        "men",
+        "women"
+      ],
+      "required": true
+    },
+    "productDescription1": {
+      "type": "text"
+    }
+  }
+}
