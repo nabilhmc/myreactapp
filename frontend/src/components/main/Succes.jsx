@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const baseURL = 'http://localhost:1337/api';
-const apiToken = '921a7efd84206961732e44feedea9608688745a6e2e22119f979444e06e78336a651d050360eaff05b34dffdc289893f966b2ac119e5e376febbc8aa492edd28d35d41dd7f9643c810e6d8076c09368aed66a2c814ef6a2dd3d5e9c45bb5cacc37a0bc8de9fc2717eb8d51224e476f32dbbac5e1ac710106e54ef1fca344a83f';
+const apiToken = '59845ea4c94010f2bda027ea42ce3346a9273e186734212ad268c575e65317ac783d23b1ece9e1085a1f18730336e1a2f6d39d966fa2ce9b506c219685b13738b81425e6f7bec640e499fa63ee5ec7914f36324cc2e6492701ba03b9de07d0d00dbdf5ef39797cdb85c3ef1e09d336243f6b62139444cac3126f7083b2bc0db6';
 
 
 const Succes = () => {
